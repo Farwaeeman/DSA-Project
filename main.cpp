@@ -1,3 +1,11 @@
+/*
+    Module: Student System
+    Owner: Farwa Eeman
+    Description: Implementation of student system functions
+*/
+
+
+
 #include <iostream>
 #include <string>
 #include <limits>
@@ -50,6 +58,8 @@ Student* searchStudent(int id) {
 }
 
 /* -------- Student Functions -------- */
+
+//  Adds a new student to the linked list  //
 void addStudent() {
     string input;
     int id;
@@ -107,6 +117,7 @@ void displayStudents() {
 }
 
 /* -------- Borrowing Functions -------- */
+
 void issueBook() {
     string input;
     int sid, bid;
